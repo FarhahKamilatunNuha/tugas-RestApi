@@ -1,0 +1,30 @@
+body {
+    background-color: palevioletred;
+    width: 300px;
+    margin: 0 auto;
+
+}
+
+.img{
+    width: 30px;
+    height: 35px;
+    padding: 50px;
+}
+
+#display{
+    width: 500px;
+    display: flex;
+}
+.wrapper{
+    flex: 1;
+}
+.wrapper .name{
+     flex: 1;
+     align-self: center;
+     padding: 50px;
+}
+.fetch {
+    width: 20px;
+    height: 30px;
+    padding: 25px;
+}
